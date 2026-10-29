@@ -310,7 +310,7 @@ Secure-Small-Office-Network/
 │   └── CN_Report.docx                        # Working report copy
 │
 ├── Presentation/
-│   └── CNPROJECT_Presentation.pptx           # Verified 10-slide project presentation
+│   └── Secure_Small_Office_Network_Presentation.pptx # Verified 10-slide project presentation
 │
 ├── Screenshots/                              # Genuine experimental evidence
 │   ├── 01_Network_Topology.png
