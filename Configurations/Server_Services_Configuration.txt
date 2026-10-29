@@ -1,0 +1,41 @@
+==============================================================================
+Company-Server Configuration & Application Services Specification
+Project: Secure Small Office Network using VLANs, Inter-VLAN Routing and DHCP
+==============================================================================
+
+1. Network Interface Configuration (FastEthernet0)
+--------------------------------------------------
+Device:             Company-Server (Server-PT)
+Switch Port:        SW1 FastEthernet0/10 (Access port in VLAN 10)
+IP Configuration:   Static
+IP Address:         192.168.10.10
+Subnet Mask:        255.255.255.0 (/24)
+Default Gateway:    192.168.10.1 (R1 Gi0/0.10)
+DNS Server:         192.168.10.10 (Self)
+
+2. HTTP / Intranet Web Service
+------------------------------
+Service Status:     ON
+Port:               80 (HTTP) and 443 (HTTPS)
+Default Document:   index.html
+Page Title:         ABC COMPANY - Internal Network Portal
+Content Summary:    Intranet homepage providing company announcements, department
+                    overviews (HR - VLAN 10, IT - VLAN 20, Sales - VLAN 30),
+                    and internal network services info.
+
+3. Domain Name System (DNS) Service
+-----------------------------------
+Service Status:     ON
+Primary A-Record:
+  - Name:           company.local
+  - Type:           A Record (Address Record)
+  - Address:        192.168.10.10
+
+4. Network Role & Security Context
+----------------------------------
+- Located in VLAN 10 (HR broadcast domain) on switch port Fa0/10.
+- Reached at Layer 2 (switched) by HR workstations.
+- Reached at Layer 3 (routed via R1 Gi0/0) by IT (VLAN 20) and Sales (VLAN 30).
+- Explicitly permitted by rule 10 of extended ACL SALES_RESTRICTION, ensuring
+  Sales workstations can access internal web and DNS services while remaining
+  isolated from HR endpoint hosts.

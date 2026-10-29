@@ -1,0 +1,12 @@
+# Office temporary lock files
+~$*
+*.tmp
+
+# OS generated files
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Git / IDE
+.vscode/
+.idea/
