@@ -344,9 +344,9 @@ Secure-Small-Office-Network/
 
 | Registration Number | Student Name | Degree & Specialization | Institution |
 | :--- | :--- | :--- | :--- |
-| **24BCI0104** | **Ravindra Swami** | B.Tech. Computer Science and Engineering | School of Computer Science and Engineering (SCOPE), VIT |
-| **24BKT0101** | **Jash Chordiya** | B.Tech. Computer Science and Engineering | School of Computer Science and Engineering (SCOPE), VIT |
-| **24BAI0012** | **Pratyush Kumar Sahoo** | B.Tech. Computer Science and Engineering | School of Computer Science and Engineering (SCOPE), VIT |
+| **24BCI0104** | **Ravindra Swami** | B.Tech. Computer Science and Engineering with Specialization in Information Security | School of Computer Science and Engineering (SCOPE), VIT |
+| **24BKT0101** | **Jash Chordiya** | B.Tech. Computer Science and Engineering with Specialization in Block Chain Technology | School of Computer Science and Engineering (SCOPE), VIT |
+| **24BAI0012** | **Pratyush Kumar Sahoo** | B.Tech. Computer Science and Engineering with Specialization in Artificial intelligence  | School of Computer Science and Engineering (SCOPE), VIT |
 
 ---
 
