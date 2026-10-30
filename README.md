@@ -301,16 +301,18 @@ Secure-Small-Office-Network/
 ├── README.md                                 # Master project documentation
 │
 ├── Simulation/
+│   ├── F2_Team7_Simulation.pkt               # Official simulation copy
 │   └── CNproject.pkt                         # Original Cisco Packet Tracer simulation
 │
 ├── Report/
-│   ├── CN_Report_Captioned.pdf               # Verified final 27-page lab report (PDF)
-│   ├── CN_Report_Captioned.docx              # Final captioned report (DOCX)
-│   ├── CN_Report_Original.docx               # Preserved untouched original report
-│   └── CN_Report.docx                        # Working report copy
+│   ├── F2_Team7_Report.pdf                   # Official 27-page lab report (PDF)
+│   ├── F2_Team7_Report.docx                  # Official captioned report (DOCX)
+│   ├── CN_Report_Captioned.pdf               # Captioned report PDF
+│   └── CN_Report_Original.docx               # Preserved untouched original report
 │
 ├── Presentation/
-│   └── Secure_Small_Office_Network_Presentation.pptx # Verified 10-slide project presentation
+│   ├── F2_Team7_PPT.pptx                     # Official 10-slide presentation (PPTX)
+│   └── Secure_Small_Office_Network_Presentation.pptx # Verified presentation
 │
 ├── Screenshots/                              # Genuine experimental evidence
 │   ├── 01_Network_Topology.png
@@ -335,7 +337,12 @@ Secure-Small-Office-Network/
 │   ├── Test_Plan_and_Results.md              # Test matrix, metrics, and comparisons
 │   └── Verification_and_Troubleshooting_Guide.md # Step-by-step evaluation guide
 │
-└── Submission/                               # Prepared archives for VTOP upload
+└── Submission/                               # Official deliverables following faculty naming convention
+    ├── F2_Team7_Report.pdf                   # Official VTOP Assignment 8 Report
+    ├── F2_Team7_PPT.pptx                     # Official VTOP Assignment 9 Presentation
+    ├── F2_Team7_Simulation.pkt               # Official Packet Tracer simulation
+    ├── F2_Team7_Screenshots.zip              # Official packaged screenshots archive
+    └── F2_Team7_SourceCode.zip               # Official packaged source/config archive
 ```
 
 ---
