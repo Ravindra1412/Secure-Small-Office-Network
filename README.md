@@ -295,24 +295,20 @@ All evidence screenshots are stored in the `Screenshots/` directory:
 
 ## 14. Project File Structure
 
-```
+`
 Secure-Small-Office-Network/
 │
 ├── README.md                                 # Master project documentation
 │
 ├── Simulation/
-│   ├── F2_Team7_Simulation.pkt               # Official simulation copy
-│   └── CNproject.pkt                         # Original Cisco Packet Tracer simulation
+│   └── F2_Team7_Simulation.pkt               # Official Cisco Packet Tracer simulation
 │
 ├── Report/
 │   ├── F2_Team7_Report.pdf                   # Official 27-page lab report (PDF)
-│   ├── F2_Team7_Report.docx                  # Official captioned report (DOCX)
-│   ├── CN_Report_Captioned.pdf               # Captioned report PDF
-│   └── CN_Report_Original.docx               # Preserved untouched original report
+│   └── F2_Team7_Report.docx                  # Official captioned report (DOCX)
 │
 ├── Presentation/
-│   ├── F2_Team7_PPT.pptx                     # Official 10-slide presentation (PPTX)
-│   └── Secure_Small_Office_Network_Presentation.pptx # Verified presentation
+│   └── F2_Team7_PPT.pptx                     # Official 10-slide presentation (PPTX)
 │
 ├── Screenshots/                              # Genuine experimental evidence
 │   ├── 01_Network_Topology.png
@@ -337,13 +333,10 @@ Secure-Small-Office-Network/
 │   ├── Test_Plan_and_Results.md              # Test matrix, metrics, and comparisons
 │   └── Verification_and_Troubleshooting_Guide.md # Step-by-step evaluation guide
 │
-└── Submission/                               # Official deliverables following faculty naming convention
-    ├── F2_Team7_Report.pdf                   # Official VTOP Assignment 8 Report
-    ├── F2_Team7_PPT.pptx                     # Official VTOP Assignment 9 Presentation
-    ├── F2_Team7_Simulation.pkt               # Official Packet Tracer simulation
+└── Submission/                               # Packaged archives for VTOP upload
     ├── F2_Team7_Screenshots.zip              # Official packaged screenshots archive
     └── F2_Team7_SourceCode.zip               # Official packaged source/config archive
-```
+`
 
 ---
 
