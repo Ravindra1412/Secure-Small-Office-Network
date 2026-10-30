@@ -295,7 +295,7 @@ All evidence screenshots are stored in the `Screenshots/` directory:
 
 ## 14. Project File Structure
 
-`
+```
 Secure-Small-Office-Network/
 │
 ├── README.md                                 # Master project documentation
@@ -336,7 +336,7 @@ Secure-Small-Office-Network/
 └── Submission/                               # Packaged archives for VTOP upload
     ├── F2_Team7_Screenshots.zip              # Official packaged screenshots archive
     └── F2_Team7_SourceCode.zip               # Official packaged source/config archive
-`
+```
 
 ---
 
